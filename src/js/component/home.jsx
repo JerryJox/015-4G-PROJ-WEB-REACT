@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./navbar.jsx"
 
 //include images into your bundle
 import Navbar from "./navbar.jsx";
@@ -12,8 +11,15 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar/>
-			<Card/>
 			<Jumbotron/>
+			<div className="container m-5">
+				<div className="row justify-content-between">
+					<Card className="col-sm-12"/>
+					<Card className="col-sm-12"/>
+					<Card className="col-sm-12"/>
+					<Card className="col-sm-12"/>	
+				</div>
+			</div>
 			<Footer/>			
 		</div>
 	);
