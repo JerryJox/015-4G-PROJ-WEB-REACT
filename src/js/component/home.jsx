@@ -12,13 +12,11 @@ const Home = () => {
 		<div>
 			<Navbar/>
 			<Jumbotron/>
-			<div className="container m-5">
-				<div className="row justify-content-between">
-					<Card className="col-sm-12"/>
-					<Card className="col-sm-12"/>
-					<Card className="col-sm-12"/>
-					<Card className="col-sm-12"/>	
-				</div>
+			<div className="container-fluid row p-0 mx-5 d-flex justify-content-between">
+				<Card className="col-md-auto"/>
+				<Card className="col-md-auto"/>
+				<Card className="col-md-auto"/>
+				<Card className="col-md-auto"/>	
 			</div>
 			<Footer/>			
 		</div>

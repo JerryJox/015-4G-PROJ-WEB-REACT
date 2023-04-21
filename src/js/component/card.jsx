@@ -1,7 +1,7 @@
 import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 function Card(){
-    return(<div className="card my-3" style={{width: "270px"}}>
+    return(<div className="card my-5" style={{width: "20rem"}}>
                 <img src={rigoImage} className="card-img-top" alt="..." />
                 <div className="card-body justify-content-center">
                     <h5 className="card-title">Card title</h5>

@@ -4,7 +4,7 @@ function Navbar(){
   <div className="container-fluid px-5">
     <a className="navbar-brand text-white" href="#">Start Bootstrap</a>
     <button className="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler fas fa-bars fa-lg text-white"></span>
+      <span className="navbar-toggler fas fa-bars fa-lg text-white"></span>
     </button>
     <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul className="navbar-nav">
